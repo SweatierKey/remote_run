@@ -1,0 +1,213 @@
+=== zero@zero: Inizio ===
+Permission denied, please try again.
+Permission denied, please try again.
+=== zero@zero: Inizio ===
+[2025-10-27 02:28:47] Modalità DRY-RUN attivata: nessuna modifica sarà applicata
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/oblog.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/access_log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/webgate.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/admin_log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/access_log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_wl_lr.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_rewrite.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/access.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/server.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/domain.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.out[0-9]*[0-9]*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/DefaultAuditRecorder.[0-9]*.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*-diagnostic-[0-9]*.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/verbosegc.[0-9]*[0-9].log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/access.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/AdminServer.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.log*
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.*.gz
+[2025-10-27 02:28:47] Nessun file da processare per pattern: /home/matteo/*/remotedir/bash/*/*.sh
+[2025-10-27 02:28:47] Pulizia file compressi più vecchi di 30 giorni per pattern: /home/matteo/*/remotedir/bash/*/*.*.gz
+
+[SUMMARY] Compressione:
+  Compressed:         0
+  Already compressed: 0
+  Skipped open:       0
+  Skipped recent:     0
+  Skipped blacklist:  0
+  Errors:             0
+
+[SUMMARY] Cleanup:
+  Deleted:            0
+  Errors:             0
+=== zero@zero: Successo ===
+[2025-10-27 02:31:24] === zero@zero: Inizio ===
+[2025-10-27 02:31:37] Modalità DRY-RUN attivata: nessuna modifica sarà applicata
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/oblog.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/access_log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/webgate.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/admin_log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/access_log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_wl_lr.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_rewrite.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/access.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/server.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/domain.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.out[0-9]*[0-9]*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/DefaultAuditRecorder.[0-9]*.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*-diagnostic-[0-9]*.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/verbosegc.[0-9]*[0-9].log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/access.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/AdminServer.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.log*
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.*.gz
+[2025-10-27 02:31:37] Nessun file da processare per pattern: /home/matteo/*/remotedir/bash/*/*.sh
+[2025-10-27 02:31:37] Pulizia file compressi più vecchi di 30 giorni per pattern: /home/matteo/*/remotedir/bash/*/*.*.gz
+
+[SUMMARY] Compressione:
+  Compressed:         0
+  Already compressed: 0
+  Skipped open:       0
+  Skipped recent:     0
+  Skipped blacklist:  0
+  Errors:             0
+
+[SUMMARY] Cleanup:
+  Deleted:            0
+  Errors:             0
+[2025-10-27 02:31:37] === zero@zero: Successo ===
+[2025-10-27 02:32:27] === zero@zero: Inizio ===
+[2025-10-27 02:32:35] Modalità DRY-RUN attivata: nessuna modifica sarà applicata
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/oblog.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/access_log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/webgate.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/admin_log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/access_log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_wl_lr.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_rewrite.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/access.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/server.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/domain.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.out[0-9]*[0-9]*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/DefaultAuditRecorder.[0-9]*.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*-diagnostic-[0-9]*.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/verbosegc.[0-9]*[0-9].log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/access.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/AdminServer.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.log*
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.*.gz
+[2025-10-27 02:32:35] Nessun file da processare per pattern: /home/matteo/*/remotedir/bash/*/*.sh
+[2025-10-27 02:32:35] Pulizia file compressi più vecchi di 30 giorni per pattern: /home/matteo/*/remotedir/bash/*/*.*.gz
+
+[SUMMARY] Compressione:
+  Compressed:         0
+  Already compressed: 0
+  Skipped open:       0
+  Skipped recent:     0
+  Skipped blacklist:  0
+  Errors:             0
+
+[SUMMARY] Cleanup:
+  Deleted:            0
+  Errors:             0
+[2025-10-27 02:32:35] === zero@zero: Successo ===
+[2025-10-27 02:34:02] === zero@zero: Inizio ===
+[2025-10-27 02:34:11] Modalità DRY-RUN attivata: nessuna modifica sarà applicata
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/oblog.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/access_log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/webgate.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/admin_log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/servers/*/logs/access_log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_wl_lr.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/mod_rewrite.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/diagnostics/logs/OHS/*/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/access.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/server.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/domain.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.out[0-9]*[0-9]*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/DefaultAuditRecorder.[0-9]*.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*-diagnostic-[0-9]*.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/wlslog/*/*/serverlogs/verbosegc.[0-9]*[0-9].log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/wlslog/*/*/serverlogs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/access.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/AdminServer.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/?server/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.log*
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /u01/app/oracle/admin/*/*/*/servers/*/logs/*.*.gz
+[2025-10-27 02:34:11] Nessun file da processare per pattern: /home/matteo/*/remotedir/bash/*/*.sh
+[2025-10-27 02:34:11] Pulizia file compressi più vecchi di 30 giorni per pattern: /home/matteo/*/remotedir/bash/*/*.*.gz
+
+[SUMMARY] Compressione:
+  Compressed:         0
+  Already compressed: 0
+  Skipped open:       0
+  Skipped recent:     0
+  Skipped blacklist:  0
+  Errors:             0
+
+[SUMMARY] Cleanup:
+  Deleted:            0
+  Errors:             0
+[2025-10-27 02:34:11] === zero@zero: Successo ===
+[2025-10-27 02:34:55] === zero@zero: Inizio ===
+/tmp/fail.sh: line 3: hahaha: command not found
+[2025-10-27 02:35:04] === zero@zero: Fallito ===
+[2025-10-27 02:35:11] === zero@zero: Inizio ===
+/tmp/fail.sh: line 3: hahaha: command not found
+[2025-10-27 02:35:19] === zero@zero: Fallito ===
