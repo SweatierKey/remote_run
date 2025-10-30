@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 SCRIPT="$1"
 shift
 
 REMOTE_DIR="/tmp"
-MAX_JOBS=5
+MAX_JOBS=0
 HOSTS=()
+EXTRA_FILES=()
 REMOTE_ARGS=()
 TMP_DIR=$(mktemp -d)
 
@@ -15,6 +18,9 @@ while [[ "$#" -gt 0 ]]; do
         shift
         REMOTE_ARGS=("$@")
         break
+	elif [[ -f "$1" ]]; then
+		EXTRA_FILES+=("$1")
+		shift
     else
         HOSTS+=("$1")
         shift
@@ -28,7 +34,7 @@ run_on_host() {
 
     echo "[$(date "+%Y-%m-%d %H:%M:%S")] === $host: Inizio ===" | tee -a "$logfile"
 
-    if ! scp "$SCRIPT" "$host:$REMOTE_DIR/" &>> "$logfile"; then
+    if ! scp "$SCRIPT" "${EXTRA_FILES[@]}" "$host:$REMOTE_DIR/" &>> "$logfile"; then
         echo "[$(date "+%Y-%m-%d %H:%M:%S")] === $host: Errore SCP ===" | tee -a "$logfile"
         echo "FAIL" > "$statusfile"
         return
@@ -50,16 +56,21 @@ run_on_host() {
 
 # parallelo limitato
 running_jobs=0
-for host in "${HOSTS[@]}"; do
-    run_on_host "$host" &
+# for host in "${HOSTS[@]}"; do
+#     run_on_host "$host" &
+# 
+#     ((running_jobs++))
+#     if (( running_jobs >= MAX_JOBS )); then
+#         wait -n
+#         ((running_jobs--))
+#     fi
+# done
+# wait
 
-    ((running_jobs++))
-    if (( running_jobs >= MAX_JOBS )); then
-        wait -n
-        ((running_jobs--))
-    fi
+
+for host in "${HOSTS[@]}"; do
+    run_on_host "$host"
 done
-wait
 
 # riepilogo finale
 echo
