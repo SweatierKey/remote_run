@@ -12,6 +12,7 @@ REMOTE_DIR="/tmp"
 SCRIPT="$1"
 shift
 
+OUTPUT_MODE="log"
 HOSTS=()
 EXTRA_FILES=()
 REMOTE_ARGS=()
@@ -27,6 +28,9 @@ while [[ "$#" -gt 0 ]]; do
 	elif [[ -f "$1" ]]; then
 		EXTRA_FILES+=("$1")
 		shift
+	elif [[ "$1" == "--to-stdout" ]]; then
+		OUTPUT_MODE="hybrid"
+		shift
 	else
 		HOSTS+=("$1")
 		shift
@@ -37,9 +41,27 @@ log() {
     local host_port="$1"
     local msg="$2"
     local logfile="$3"
+	local mode="${4:-hybrid}"
 
     # timestamp + host + messaggio
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] === ${host_port} ${msg} ===" | tee -a "$logfile"
+	line="[$(date '+%Y-%m-%d %H:%M:%S')] === ${host_port} ${msg} ==="
+
+	case "$mode" in
+		log)
+            echo "$line" >> "$logfile"
+            ;;
+        stdout)
+            echo "$line"
+            ;;
+        hybrid)
+            echo "$line" | tee -a "$logfile"
+            ;;
+        *)
+            echo "Errore: modalità log sconosciuta '$mode'" >&2
+            ;;
+    esac
+
+    #echo "[$(date '+%Y-%m-%d %H:%M:%S')] === ${host_port} ${msg} ===" | tee -a "$logfile"
 }
 
 
@@ -107,11 +129,13 @@ run_on_host() {
 
 	
 	# Esegue lo script target sul remote
-	if "${SSH_CMD[@]}" \
-		"$host" "$cmd" 2>/dev/null >> "$logfile"; then
+	if output=$("${SSH_CMD[@]}" \
+		"$host" "$cmd" 2>/dev/null); then
+			log "$conn_string" "$output" "$logfile" "$OUTPUT_MODE"
 			log "$conn_string" "Success" "$logfile"
 			echo "OK" > "$statusfile"
 	else
+		log "$conn_string" "$output" "$logfile" "$OUTPUT_MODE"
 		log "$conn_string" "Failure (cmd)" "$logfile"
 		echo "FAIL" > "$statusfile"
 	fi
