@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eo pipefail
+set -euo pipefail
 
 # ssh user che esegue lo script,
 # usato anche per assegnare l'ownership dei remote files.
@@ -60,8 +60,6 @@ log() {
 			echo "Errore: modalità log sconosciuta '$mode'" >&2
 			;;
 	esac
-
-	#echo "[$(date '+%Y-%m-%d %H:%M:%S')] === ${host_port} ${msg} ===" | tee -a "$logfile"
 }
 
 
@@ -141,17 +139,13 @@ run_on_host() {
 		fi
 	}
 
-# for host in "${HOSTS[@]}"; do
-#     run_on_host "$host"
-# done
+	MAX_PARALLEL=0  # numero massimo di job contemporanei
+	[[ "$MAX_PARALLEL" == 0 ]] && ((++MAX_PARALLEL))
+	PIDS=()
 
-
-MAX_PARALLEL=30  # numero massimo di job contemporanei
-PIDS=()
-
-for host in "${HOSTS[@]}"; do
-	run_on_host "$host" &
-	PIDS+=($!)
+	for host in "${HOSTS[@]}"; do
+		run_on_host "$host" &
+		PIDS+=($!)
 
 	# se ci sono troppi job attivi, aspetta che uno finisca
 	while (( $(jobs -r | wc -l) >= MAX_PARALLEL )); do
